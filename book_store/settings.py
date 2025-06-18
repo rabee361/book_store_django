@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "unfold", 
+    "unfold.contrib.filters",  
+    "unfold.contrib.forms",  
+    "unfold.contrib.inlines",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -40,7 +44,6 @@ INSTALLED_APPS = [
     "accounts",
     "pages",
     "crispy_forms", # new
-    "crispy_bootstrap5", # new
 ]
 
 MIDDLEWARE = [
